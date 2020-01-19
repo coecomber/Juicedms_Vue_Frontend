@@ -1,6 +1,12 @@
 # Juicedms_Vue_Frontend
  My second frontend for my microservices application using VUE and websockets
 
+How to get this program running? -- All backend services are running so you don't have to worry about that.
+
+1. Download repository
+2. Go to the root folder of the downloaded repository in your command prompt
+3. Type 'npm run install' and wait till the instalattion is complete
+4. Visit 'localhost:9000'
 
 This application is part of multiple applications for my microservices project. The other repositories can be found on the following locations:
 * **Discovery service:** https://github.com/coecomber/Juicedms_Discovery

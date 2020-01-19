@@ -13,7 +13,7 @@ import { domain, clientId } from "../auth_config.json";
 
 Vue.config.productionTip = false;
 
-Vue.use(VueNativeSock, "ws://localhost:8550/ws/", {
+Vue.use(VueNativeSock, "ws://217.101.44.31:8550/ws/", {
   reconnection: true, // (Boolean) whether to reconnect automatically (false)
   reconnectionAttempts: 5, // (Number) number of reconnection attempts before giving up (Infinity),
   reconnectionDelay: 300 // (Number) how long to initially wait before attempting a new (1000)
