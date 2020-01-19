@@ -19,9 +19,9 @@
             <li v-if="!$auth.isAuthenticated && !$auth.loading" class="nav-item">
               <router-link to="/" class="nav-link">Home</router-link>
             </li>
-            <li class="nav-item" v-if="$auth.isAuthenticated">
+            <!-- <li class="nav-item" v-if="$auth.isAuthenticated">
               <router-link to="/connectedplayers" class="nav-link">Currently playing</router-link>
-            </li>
+            </li> -->
             <li class="nav-item" v-if="$auth.isAuthenticated">
               <router-link to="/characterselection" class="nav-link">Choose Character</router-link>
             </li>

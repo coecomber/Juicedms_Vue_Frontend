@@ -25,7 +25,7 @@ export default {
         const { userName } = this;
         discoveryService.getInstance("character-service").then(response => {
         axios
-          .post(response.data + 'api/character/add/' + userName + '/' + this.$auth.user.email )
+          .post(response.data + 'api/public/character/add/' + userName + '/' + this.$auth.user.email )
           .then(response => (this.characters = JSON.stringify(response.data)))
           .catch()
         

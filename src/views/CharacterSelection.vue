@@ -46,7 +46,7 @@ export default {
     async getCharacters(){
       discoveryService.getInstance("character-service").then(response => {
         axios
-          .get(response.data + 'api/characters/get/' + this.$auth.user.email )
+          .get(response.data + 'api/public/characters/get/' + this.$auth.user.email )
           .then(response => (this.characters = JSON.stringify(response.data)))
           .catch()
         
